@@ -1,0 +1,17 @@
+Package: hotkeys
+Type: Package
+Title: Brew hotkeys
+Version: 0.1.0.9000
+Authors@R: person("czxa", email = "czx@czxa.top", role = c("aut", "cre"))
+Description: Brew hotkeys for RStudio.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Date: 2019-05-12
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    htmlwidgets,
+    rstudioapi
+Depends: R (>= 3.0.0)
+URL: https://www.czxa.top/hotkeys
+BugReports: https://github.com/czxa/hotkeys/issues
