@@ -1,5 +1,5 @@
 # hotkeys<img src="/assets/hotkeys-fit.png" align="right" />
-[![](https://img.shields.io/badge/build-passing-brightgreen.svg?style=plastic)](https:www.czxa.top) [![](https://img.shields.io/badge/R-hotkeys-brightgreen.svg?style=plastic)](https://www.czxa.top) [![](https://img.shields.io/badge/github-R-orange.svg?style=plastic)](https://www.czxa.top) [![](https://img.shields.io/badge/platform-Windows_OS|Mac_OS-orange.svg?style=plastic)](https://www.czxa.top)
+[![](https://img.shields.io/badge/build-passing-brightgreen.svg?style=plastic)](https:czxa.top) [![](https://img.shields.io/badge/R-hotkeys-brightgreen.svg?style=plastic)](https://czxa.top) [![](https://img.shields.io/badge/github-R-orange.svg?style=plastic)](https://czxa.top) [![](https://img.shields.io/badge/platform-Windows_OS|Mac_OS-orange.svg?style=plastic)](https://czxa.top)
 
 一些R包提供了很好用的管道操作符，但是这些管道操作符通常至少有三个字母，输入起来有些麻烦，所以我就行自定义一些快捷键实现直接使用快捷键输入这些管道操作符。RStudio自定义快捷键很简单，只需要写一个简单的R包创建一些加载项，然后对加载项设置快捷键绑定即可。官方教程参考这个：[Customizing Keyboard Shortcuts](https://support.rstudio.com/hc/en-us/articles/206382178?version=1.2.1181&mode=desktop)。
 
