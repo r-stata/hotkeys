@@ -1,79 +1,92 @@
 #' Insert \%in\%.
 #' @export
 a1 <- function() {
-  rstudioapi::insertText(Inf, " %in% ")
+  loc <- rstudioapi::getActiveDocumentContext()$selection[[1]]$range
+  rstudioapi::insertText(loc, " %in% ")
 }
 
 #' Insert \%>\%.
 #' @export
 a2 <- function() {
-  rstudioapi::insertText(Inf, " %>% ")
+  loc <- rstudioapi::getActiveDocumentContext()$selection[[1]]$range
+  rstudioapi::insertText(loc, " %>% ")
 }
 
 #' Insert \%T>\%.
 #' @export
 a3 <- function() {
-  rstudioapi::insertText(Inf, " %T>% ")
+  loc <- rstudioapi::getActiveDocumentContext()$selection[[1]]$range
+  rstudioapi::insertText(loc, " %T>% ")
 }
 
 #' Insert <-.
 #' @export
 a4 <- function() {
-  rstudioapi::insertText(Inf, " <- ")
+  loc <- rstudioapi::getActiveDocumentContext()$selection[[1]]$range
+  rstudioapi::insertText(loc, " <- ")
 }
 
 
 #' Insert \%==\% .
 #' @export
 a5 <- function() {
-  rstudioapi::insertText(Inf, " %==% ")
+  loc <- rstudioapi::getActiveDocumentContext()$selection[[1]]$range
+  rstudioapi::insertText(loc, " %==% ")
 }
 
 #' Insert \%$\% .
 #' @export
 a6 <- function() {
-  rstudioapi::insertText(Inf, " %$% ")
+  loc <- rstudioapi::getActiveDocumentContext()$selection[[1]]$range
+  rstudioapi::insertText(loc, " %$% ")
 }
 
 #' Insert \%\% .
 #' @export
 a7 <- function() {
-  rstudioapi::insertText(Inf, " %% ")
+  loc <- rstudioapi::getActiveDocumentContext()$selection[[1]]$range
+  rstudioapi::insertText(loc, " %% ")
 }
 
 #' Insert \%\/\% .
 #' @export
 a8 <- function() {
-  rstudioapi::insertText(Inf, " %/% ")
+  loc <- rstudioapi::getActiveDocumentContext()$selection[[1]]$range
+  rstudioapi::insertText(loc, " %/% ")
 }
 
 #' Insert -> .
 #' @export
 a9 <- function() {
-  rstudioapi::insertText(Inf, " -> ")
+  loc <- rstudioapi::getActiveDocumentContext()$selection[[1]]$range
+  rstudioapi::insertText(loc, " -> ")
 }
 
 
 #' Insert \%+replace\% .
 #' @export
 a10 <- function() {
-  rstudioapi::insertText(Inf, " %+replace% ")
+  loc <- rstudioapi::getActiveDocumentContext()$selection[[1]]$range
+  rstudioapi::insertText(loc, " %+replace% ")
 }
 
 #' Insert \%w/o\% .
 #' @export
 a11 <- function() {
-  rstudioapi::insertText(Inf, " %w/o% ")
+  loc <- rstudioapi::getActiveDocumentContext()$selection[[1]]$range
+  rstudioapi::insertText(loc, " %w/o% ")
 }
 
 #' Insert \%*\% .
 #' @export
 a12 <- function() {
-  rstudioapi::insertText(Inf, " %*% ")
+  loc <- rstudioapi::getActiveDocumentContext()$selection[[1]]$range
+  rstudioapi::insertText(loc, " %*% ")
 }
 
 #' Insert \%<>\% .
 #' @export
 a13 <- function() {
-  rstudioapi::insertText(Inf, " %<>% ")
+  loc <- rstudioapi::getActiveDocumentContext()$selection[[1]]$range
+  rstudioapi::insertText(loc, " %<>% ")
 }
