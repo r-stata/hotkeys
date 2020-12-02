@@ -1,12 +1,11 @@
 # hotkeys<img src="/assets/hotkeys-fit.png" align="right" />
-[![](https://img.shields.io/badge/build-passing-brightgreen.svg?style=plastic)](https:czxa.top) [![](https://img.shields.io/badge/R-hotkeys-brightgreen.svg?style=plastic)](https://czxa.top) [![](https://img.shields.io/badge/github-R-orange.svg?style=plastic)](https://czxa.top) [![](https://img.shields.io/badge/platform-Windows_OS|Mac_OS-orange.svg?style=plastic)](https://czxa.top)
+[![](https://img.shields.io/badge/build-passing-brightgreen.svg?style=plastic)](https://tidyfriday.cn) [![](https://img.shields.io/badge/R-hotkeys-brightgreen.svg?style=plastic)](https://tidyfriday.cn) [![](https://img.shields.io/badge/github-R-orange.svg?style=plastic)](https://tidyfriday.cn) [![](https://img.shields.io/badge/platform-Windows_OS|Mac_OS-orange.svg?style=plastic)](https://tidyfriday.cn)
 
 一些R包提供了很好用的管道操作符，但是这些管道操作符通常至少有三个字母，输入起来有些麻烦，所以我就行自定义一些快捷键实现直接使用快捷键输入这些管道操作符。RStudio自定义快捷键很简单，只需要写一个简单的R包创建一些加载项，然后对加载项设置快捷键绑定即可。官方教程参考这个：[Customizing Keyboard Shortcuts](https://support.rstudio.com/hc/en-us/articles/206382178?version=1.2.1181&mode=desktop)。
 
 本文参考了：[R语言中管道操作 %>%, %T>%, %$% 和 %%](https://blog.csdn.net/zhaozhn5/article/details/79001384)。
 
-
-作为尝试，我写了一个小小的R包，里面包括整合了十多个R语言中的复合操作符的快捷输入。[hotkeys](https://github.com/czxa/hotkeys)
+作为尝试，我写了一个小小的R包，里面包括整合了十多个R语言中的复合操作符的快捷输入。[hotkeys](https://github.com/r-stata/hotkeys)
 
 这个包里包含了十多个加载项，通过自定义快捷键可以插入以下十多个复合操作符，首先介绍一些符号操作符。
 
@@ -296,7 +295,6 @@ ggplot(mtcars, aes(mpg, wt)) +
   geom_point()
 ```
 
-
 ## magrittr包补充
 
 最后值得补充的是，为了让链条传递看起来更友好，magrittr对于常见的计算符号操作符进行的重新定义，让每个操作都对应用一个函数，这样所有的传递调用代码都是风格统一的。比如，add()函数和`+`是等价的。
@@ -333,17 +331,13 @@ set_names	          `names<-`
 
 ## hotkeys包
 
-安装好hotkeys包之后，在RStudio菜单栏里点击Tools -> Modify Keyboard Shortcuts。
+安装好 hotkeys 包之后，在 RStudio 菜单栏里点击 Tools -> Modify Keyboard Shortcuts。
 
-![](https://czxb.github.io/br/czxa_2019-02-02_16.41.15.png)
+![](https://czxb.github.io/br/r-stata_2019-02-02_16.41.15.png)
 
 ## 补充
 
-以后遇到了再继续补充，有好想法还能自己写，例如什么`%czx%`啊，`%dwl%`啊的。
-
-## Manual
-
-[hotkeys](hotkeys)
+以后遇到了再继续补充，有好想法还能自己写，例如什么`%rstata%`啊，`%dwl%`啊的。
 
 ------------
 
@@ -369,6 +363,6 @@ License
 
 <h6 align="center">
 
-MIT © czxa.top
+MIT © 微信公众号 RStata
 
 </h6>
