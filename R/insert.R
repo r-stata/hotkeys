@@ -90,3 +90,9 @@ a13 <- function() {
   loc <- rstudioapi::getActiveDocumentContext()$selection[[1]]$range
   rstudioapi::insertText(loc, " %<>% ")
 }
+#' Insert |> .
+#' @export
+a14 <- function() {
+  loc <- rstudioapi::getActiveDocumentContext()$selection[[1]]$range
+  rstudioapi::insertText(loc, " |> ")
+}

@@ -63,3 +63,8 @@ Description: Insert `%<>%` at the cursor.
 Binding: a13
 Interactive: false
 
+Name: Insert |>.
+Description: Insert `|>` at the cursor.
+Binding: a14
+Interactive: false
+
